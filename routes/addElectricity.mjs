@@ -1,5 +1,5 @@
 import express from "express";
-import electricityModel from "../models/master/ElectricityModel.mjs";
+import electricityModel from "../models/ElectricityModel.mjs";
 
 const router = express.Router();
 

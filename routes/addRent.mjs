@@ -1,5 +1,5 @@
 import express from "express";
-import rentModel from "../models/master/rentModel.mjs";
+import rentModel from "../models/rentModel.mjs";
 
 const router = express.Router();
 

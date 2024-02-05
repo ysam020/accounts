@@ -2,7 +2,7 @@ import express from "express";
 import sgMail from "@sendgrid/mail";
 import dotenv from "dotenv";
 import schedule from "node-schedule";
-import ccModel from "../models/master/creditCardModel.mjs";
+import ccModel from "../models/creditCardModel.mjs";
 
 dotenv.config();
 

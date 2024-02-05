@@ -2,7 +2,7 @@ import express from "express";
 import sgMail from "@sendgrid/mail";
 import dotenv from "dotenv";
 import schedule from "node-schedule";
-import RentModel from "../models/master/rentModel.mjs";
+import RentModel from "../models/rentModel.mjs";
 
 dotenv.config();
 

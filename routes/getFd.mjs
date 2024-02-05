@@ -1,5 +1,5 @@
 import express from "express";
-import fdModel from "../models/master/fdModel.mjs";
+import fdModel from "../models/fdModel.mjs";
 
 const router = express.Router();
 

@@ -2,7 +2,7 @@ import express from "express";
 import sgMail from "@sendgrid/mail";
 import dotenv from "dotenv";
 import schedule from "node-schedule";
-import amcModel from "../models/master/amcModel.mjs";
+import amcModel from "../models/amcModel.mjs";
 
 dotenv.config();
 

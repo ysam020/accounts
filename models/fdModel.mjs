@@ -9,7 +9,6 @@ const fdSchema = new mongoose.Schema({
   remarks: { type: String },
 });
 
-// Check if the model already exists before defining it
 const FD = mongoose.models.FD || mongoose.model("FD", fdSchema);
 
 export default FD;

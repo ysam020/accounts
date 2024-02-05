@@ -2,7 +2,7 @@ import express from "express";
 import sgMail from "@sendgrid/mail";
 import dotenv from "dotenv";
 import schedule from "node-schedule";
-import licModel from "../models/master/LicModel.mjs";
+import licModel from "../models/LicModel.mjs";
 
 dotenv.config();
 

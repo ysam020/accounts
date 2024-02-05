@@ -1,5 +1,5 @@
 import express from "express";
-import mobileModel from "../models/master/mobileModel.mjs";
+import mobileModel from "../models/mobileModel.mjs";
 
 const router = express.Router();
 

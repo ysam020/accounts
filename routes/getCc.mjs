@@ -1,5 +1,5 @@
 import express from "express";
-import ccModel from "../models/master/creditCardModel.mjs";
+import ccModel from "../models/creditCardModel.mjs";
 
 const router = express.Router();
 

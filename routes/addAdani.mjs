@@ -1,5 +1,5 @@
 import express from "express";
-import adaniModel from "../models/master/adaniModel.mjs";
+import adaniModel from "../models/adaniModel.mjs";
 
 const router = express.Router();
 

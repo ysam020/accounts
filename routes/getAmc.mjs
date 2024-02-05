@@ -1,5 +1,5 @@
 import express from "express";
-import amcModel from "../models/master/amcModel.mjs";
+import amcModel from "../models/amcModel.mjs";
 
 const router = express.Router();
 

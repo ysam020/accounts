@@ -1,5 +1,5 @@
 import express from "express";
-import licModel from "../models/master/LicModel.mjs";
+import licModel from "../models/LicModel.mjs";
 
 const router = express.Router();
 
