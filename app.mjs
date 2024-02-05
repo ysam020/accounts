@@ -29,6 +29,8 @@ import licIntimation from "./routes/licIntimation.mjs";
 import mobileIntimation from "./routes/mobileIntimation.mjs";
 import rentIntimation from "./routes/rentIntimation.mjs";
 
+import login from "./routes/login.mjs";
+
 const app = express();
 app.use(bodyParser.json({ limit: "100mb" }));
 app.use(cors());
@@ -36,8 +38,8 @@ app.use(express.json());
 
 mongoose
   .connect(
-    // "mongodb://localhost:27017/accounts",
-    "mongodb+srv://exim:qTT7e4YeE3YSSMiV@aivision.pxmpvlz.mongodb.net/exim?retryWrites=true&w=majority",
+    "mongodb://localhost:27017/accounts",
+    // "mongodb+srv://exim:qTT7e4YeE3YSSMiV@aivision.pxmpvlz.mongodb.net/exim?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
@@ -71,6 +73,8 @@ mongoose
       app.use(licIntimation);
       app.use(mobileIntimation);
       app.use(rentIntimation);
+
+      app.use(login);
 
       console.log("Server is running on port 4000");
     });
