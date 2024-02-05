@@ -4,10 +4,10 @@ import mongoose from "mongoose";
 import bodyParser from "body-parser";
 import addAdani from "./routes/addAdani.mjs";
 import addAmc from "./routes/addAMC.mjs";
-import addCc from "./routes/addCc.mjs";
+import addCc from "./routes/addCC.mjs";
 import addElectricity from "./routes/addElectricity.mjs";
 import addFd from "./routes/addFD.mjs";
-import addLic from "./routes/addLic.mjs";
+import addLic from "./routes/addLIC.mjs";
 import addMobile from "./routes/addMobile.mjs";
 import addRent from "./routes/addRent.mjs";
 
