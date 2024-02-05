@@ -2,7 +2,7 @@ import express from "express";
 import sgMail from "@sendgrid/mail";
 import dotenv from "dotenv";
 import schedule from "node-schedule";
-import fdModel from "../models/master/FdModel.mjs";
+import fdModel from "../models/master/fdModel.mjs";
 
 dotenv.config();
 
