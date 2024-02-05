@@ -3,7 +3,7 @@ import cors from "cors";
 import mongoose from "mongoose";
 import bodyParser from "body-parser";
 import addAdani from "./routes/addAdani.mjs";
-import addAmc from "./routes/addAmc.mjs";
+import addAmc from "./routes/addAMC.mjs";
 import addCc from "./routes/addCc.mjs";
 import addElectricity from "./routes/addElectricity.mjs";
 import addFd from "./routes/addFD.mjs";
